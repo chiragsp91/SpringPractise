@@ -1,0 +1,17 @@
+package com.chiragsp.www.springpractice.sort;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.config.ConfigurableBeanFactory;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+@Component
+public class BinarySearchImpl {
+	
+	@Autowired
+	private SortAlgorithm bubbleSortAlgorithm;
+	
+	public void binarySearch(){
+		System.out.println(bubbleSortAlgorithm);
+	}
+}

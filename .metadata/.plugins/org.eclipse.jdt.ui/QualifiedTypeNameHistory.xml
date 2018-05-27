@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.boot.SpringApplication"/>
+<fullyQualifiedTypeName name="net.bytebuddy.agent.builder.AgentBuilder.Default.Transformation.Resolution.Sort"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.config.ConfigurableBeanFactory"/>
+<fullyQualifiedTypeName name="java.util.logging.Logger"/>
+<fullyQualifiedTypeName name="org.apache.commons.logging.LogFactory"/>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="com.chiragsp.www.springpractice.sort.BinarySearchImpl"/>
+<fullyQualifiedTypeName name="com.chiragsp.www.springpractice.sort.SortAlgorithm"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.ScopedProxyMode"/>
+</qualifiedTypeNameHistroy>
