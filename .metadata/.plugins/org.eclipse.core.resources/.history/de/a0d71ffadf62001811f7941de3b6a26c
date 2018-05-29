@@ -1,0 +1,31 @@
+package com.chiragsp.www.springpractice;
+
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+import com.chiragsp.www.springpractice.sort.BinarySearchImpl;
+
+@Configuration
+@ComponentScan("com.chiragsp.www.springpractice")
+public class SpringpracticeApplicationWithOutBoot {
+	
+	//private static Logger LOGGER = LoggerFactory.getLogger(SpringpracticeApplicationWithOutBoot.class);
+	public static void main(String[] args) {
+		ApplicationContext appCon = 
+				new AnnotationConfigApplicationContext(SpringpracticeApplicationWithOutBoot.class);
+		BinarySearchImpl binarySearch =  appCon.getBean(BinarySearchImpl.class);
+		System.out.println(binarySearch);
+		//SortAlgorithm sortAlgo1 =  binarySearch.binarySearch();
+//		BinarySearchImpl binarySearch2 =  appCon.getBean(BinarySearchImpl.class);
+//		SortAlgorithm sortAlgo2 =  binarySearch2.binarySearch();
+		//System.out.println(binarySearch2);
+		
+		//LOGGER.info("{}",binarySearch);
+
+		
+		
+	}
+}
