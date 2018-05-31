@@ -14,6 +14,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Users/chiragsp/Desktop/GitProjects/SpringBootPractise/springpractice"/>
 			<item value="/Users/chiragsp/Downloads/springpractice"/>
 		</list>
 		<list key="projectNameTemplate">
