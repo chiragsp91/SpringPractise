@@ -1,0 +1,6 @@
+package com.chiragsp.www.springaop;
+
+@Respository
+public class Dao1 {
+
+}

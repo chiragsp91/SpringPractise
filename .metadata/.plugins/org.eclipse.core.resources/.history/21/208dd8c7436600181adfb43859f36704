@@ -1,0 +1,12 @@
+package com.chiragsp.www.springaop;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class Business1 {
+	private Dao1 dao1;
+	
+	public String calculateSomething(){
+		dao1.retrieveSomething();
+	}
+}

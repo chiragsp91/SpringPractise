@@ -1,0 +1,5 @@
+package com.chiragsp.www.springaop.aspect;
+
+public class CommonJoinPointConfig {
+
+}

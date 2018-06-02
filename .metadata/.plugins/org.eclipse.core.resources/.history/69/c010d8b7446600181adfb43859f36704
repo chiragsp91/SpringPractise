@@ -1,0 +1,8 @@
+package com.chiragsp.www.springaop.aspect;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class BeforeAspect {
+
+}

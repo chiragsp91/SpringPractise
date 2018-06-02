@@ -1,5 +1,0 @@
-package com.chiragsp.www.springpractice.sort.copy;
-
-public interface SortAlgorithm {
-
-}

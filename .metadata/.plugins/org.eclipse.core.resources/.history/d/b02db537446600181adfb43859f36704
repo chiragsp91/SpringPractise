@@ -1,0 +1,22 @@
+package com.chiragsp.www.springaop;
+
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringaopApplication implements CommandLineRunner{
+	
+	private Business1 business1;
+	private Business2 business2;
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringaopApplication.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		
+		
+	}
+}

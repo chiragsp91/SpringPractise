@@ -1,0 +1,6 @@
+package com.chiragsp.www.springrestpractice;
+
+@RestController
+public class BookController {
+
+}
